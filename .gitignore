@@ -1,0 +1,20 @@
+node_modules/
+.env
+*.env
+*.env.*
+
+# Runtime state (contains usage data, not secrets, but regenerated each run)
+data/claude-usage.json
+data/budget-state.json
+
+# Screenshots
+/tmp/
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

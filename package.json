@@ -1,0 +1,21 @@
+{
+  "name": "claude-usage-guardian",
+  "version": "1.0.0",
+  "description": "Monitor Claude desktop app usage via screenshot + OCR and enforce budget limits for autonomous agents",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "claude-usage-scrape": "./bin/scrape.sh",
+    "claude-usage-check": "./bin/check.js"
+  },
+  "scripts": {
+    "scrape": "bash bin/scrape.sh",
+    "check": "node bin/check.js",
+    "test": "node test/test.js"
+  },
+  "keywords": ["claude", "usage", "budget", "monitoring", "ocr", "macos"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
